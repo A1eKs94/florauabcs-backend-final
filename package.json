@@ -1,0 +1,31 @@
+{
+  "name": "herbarioapi",
+  "version": "1.0.0",
+  "description": "API para el herbario UABCS",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.587.0",
+    "@paralleldrive/cuid2": "^2.2.2",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
